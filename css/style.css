@@ -1,0 +1,32 @@
+:root {
+    --color:#fff;
+}
+
+.navbar {
+    border-bottom:3px solid #5A79B4;
+
+}
+.header-banner {
+    background:url("../images/banner-top.jpg") no-repeat top center / 100% 100% fixed;
+    min-height:700px;
+    color:var(--color);
+}
+.dark-overlay {
+    background:rgba(0,0,0,.5);
+    min-height:700px
+}
+.header-inner {
+    padding-top:100px;
+    padding-bottom:50px;
+}
+.check-icon i{
+    background:white;
+    color:#008ed6;
+    font-size:28px;
+    padding:0.5rem;
+    font-weight:bold;
+    border-radius:5px;
+}
+.btn-close {
+    color:white !important;
+}
